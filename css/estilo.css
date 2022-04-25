@@ -1,0 +1,10 @@
+body{
+    font-family: "Rubik", sans-serif;
+}
+.menu{
+   height: 100vh;   
+}
+.menu-item:hover{
+    background-color: #334D75;
+}
+
