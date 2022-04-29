@@ -21,7 +21,8 @@ body{
     position: absolute;
     height: 100%;
     width: calc(100% - 250px);
-    left: 250px;
+    left: 260px;
+    text-align: center;
 }
 
 .bg-pag-inicial
@@ -71,3 +72,17 @@ body{
     background-color: aquamarine;
         
 }
+
+.disciplina{
+    position: relative;
+    max-width: 400px;
+    min-width: 300px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+
+
+
