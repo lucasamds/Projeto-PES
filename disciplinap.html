@@ -41,8 +41,8 @@
         <div class="py-4 conteudo sem-overflow text-center">
             <div class="row py-lg-4">
                 <div class="col-lg-6 mx-auto">
-                    <h2>Disciplinas</h2>
-                    <p class="lead text-muted">Crie uma nova disciplina ou escolha uma já existente</p>
+                    <h2>DCA0205 - Projeto e Engenharia de Software - 2022.1</h2>
+                    <p class="lead text-muted">Eduardo de Lucena Falcão</p>
                 </div>
             </div>
             
@@ -50,37 +50,33 @@
                 <div class="col-lg-6">
                     <button id="addDisciplina" onclick="addDisci()" type="button" class="btn meu-btn">
                         <i class='bx bx-plus'></i>
-                        Adicionar Disciplina
+                        Adicionar Turma
                     </button>
-                    <form target="_blank" class="disciplina my-4 py-4 px-4 border shadow border-secondary rounded-3" style="display: none;">
+                    <form class="disciplina my-4 py-4 px-4 border shadow border-secondary rounded-3" style="display: none;">
                         <div class="form-group py-2">
-                            <label for="nomeDisciplina">Nome da Disciplina</label>
-                            <input type="text" class="form-control" placeholder="Ex.: Otimização de Sistemas">
+                            <label for="nomeDisciplina">Nº da Turma</label>
+                            <input type="text" class="form-control" placeholder="Ex.: T01">
                         </div>
                         <div class="form-group py-2">
-                            <label for="codDisciplina">Código da Disciplina</label>
-                            <input type="text" class="form-control" placeholder="Ex.: DCA0115">
+                            <label for="codDisciplina">Horário</label>
+                            <input type="text" class="form-control" placeholder="Ex.: 24T56">
                         </div>
                         <div class="form-group py-2">
-                            <label for="docDisciplina">Docente</label>
-                            <input type="text" class="form-control" placeholder="Ex.: Manoel Firmino">
+                            <label for="semestreDisciplina">Capacidade de Alunos</label>
+                            <input type="text" class="form-control" placeholder="Ex.: 30">
                         </div>
-                        <div class="form-group py-2">
-                            <label for="semestreDisciplina">Semestre Atual</label>
-                            <input type="text" class="form-control" placeholder="Ex.: 2022.1">
-                        </div>
-                        <button onclick="window.location.href = 'professor.html';" type="submit" class="btn meu-btn">Criar</button>
+                        <button type="submit" class="btn meu-btn">Criar</button>
                     </form>
                 </div>
                 <div class="col-lg-6">
                     <div class="dropdown">
                         <button class="btn meu-btn dropdown-toggle" type="button">
-                            Disciplinas
+                            Turmas
                         </button>
-                        <div class="disciplina my-4 border border-secondary shadow dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="disciplinap.html">DCA0205 - Projeto e Engenharia de Software</a>
-                            <a class="dropdown-item" href="disciplinap.html">DCA0115 - Otimização de Sistemas</a>
-                            <a class="dropdown-item" href="disciplinap.html">DCA0207 - Banco de Dados</a>
+                        <div class="turmas my-4 border border-secondary shadow dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="turmap.html">T01 - 24T56</a>
+                            <a class="dropdown-item" href="turmap.html">T02 - 24T34</a>
+                            <a class="dropdown-item" href="turmap.html">T03 - 35T12</a>
                         </div>
                     </div>
                 </div>

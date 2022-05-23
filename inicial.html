@@ -14,43 +14,31 @@
           <span class="fs-4">Multiprovas</span>
         </a>
         <hr>
-        <ul class="nav nav-pills flex-column">
+        <ul class="nav nav-pills flex-column" style="text-align:justify">
           <li>
-            <a href="professor.html" class="nav-link text-white menu-item">
-              Professor
-            </a>
-          </li>
-          <li>
-            <a href="#" class="nav-link text-white menu-item">
-              Aluno
-            </a>
+            <p>O Multiprova é um site destinado para aplicações de provas online. Crie e responda questionarios com rapidez.</p>
           </li>
         </ul>
         <hr>
+        <p class="text-muted">© 2022. Todos os direitos reservados.</p>        
       </div>
-      <div class="conteudo bg-pag-inicial">
-        <div class=" row row-cols-md-2 mb-3 text-center rounded-3 janela">
-          <div class="col">
-            <div class="card-body">
-              <div class="card rounded-3 shadow p-3 mb-5 login">
-                <i class="card-title bx bxs-user-voice"></i>
-                <a role="button" href="professor.html" class="btn meu-btn btn-professor">Professor</a>
-              </div>  
-            </div>            
+      <div class="conteudo d-flex justify-content-center align-items-center bg-pag-inicial">
+        <form class="meu-login w-100 m-auto border my-auto shadow border-secondary rounded-3" method="post">
+          <h1 class="h3 mb-3 fw-normal">Entrar</h1>
+          <div class="form-floating my-1">
+            <input type="email" class="form-control" id="email-login" placeholder="nome@exemplo.com">
+            <label for="email-login">E-mail</label>
           </div>
-          <div class="col">
-            <diV class="card-body">
-              <div class="card rounded-3 shadow p-3 mb-5 login">
-                <i class="card-title bx bxs-id-card"></i>
-                <a role="button" href="#" class="btn meu-btn btn-aluno">Aluno</a>
-              </div>
-            </div>
-            
+          <div class="form-floating my-1">
+            <input type="password" class="form-control" id="senha-login" placeholder="senha">
+            <label for="senha-login">Senha</label>
           </div>
-          
-        </div>
+          <button class="w-100 btn btn-lg btn-primary my-1" id="confirma-login" onclick="testaLogin()" type="submit">Confirmar</button>
+
+          </button>
+        </form>
       </div>
     </div>
-      
+    <script src="bootstrap/js/inicial.js"></script>
 </body>
 </html>

@@ -101,6 +101,16 @@ body{
         
 }
 
+.sem-overflow{
+    overflow-x: hidden;
+}
+
+.meu-login{
+    max-width: 330px;
+    padding: 15px;
+    background:#FFF;
+}
+
 .disciplina{
     position: relative;
     max-width: 400px;
@@ -139,4 +149,13 @@ body{
 
 .questao label{
     font-weight: bold;
+}
+
+.questoes{
+    max-width: 80%;
+}
+
+#materia-quest, #lista-quest
+{
+    display: none;
 }

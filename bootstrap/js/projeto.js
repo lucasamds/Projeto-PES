@@ -17,3 +17,27 @@ function addDisci(){
     }
 }
 
+
+const materia = document.getElementById('materia-quest');
+
+
+function mostraQuestoes()
+{
+    console.log("entrou");
+    
+    if(materia.style.display === 'none')
+    {
+        materia.style.display = 'block';
+    }
+    else{
+        materia.style.display = 'none';
+    }
+    const lista = document.getElementById('lista-quest');
+    if(lista.style.display == 'none')
+    {
+        lista.style.display = 'block';
+    }
+    else{
+        lista.style.display = 'none';
+    }
+}
